@@ -7,12 +7,19 @@ function Home() {
       <div className="home-container">
         <h1>This is the Home page.</h1>
         <ol>
-          <li><Link to='/exercise_01'>Exercise 1</Link></li>
-          <ul>
-            <li>Dynamic Routing</li>
-            <li>Functional and Class Components</li>
-          </ul>
-          <li><Link to='/exercise_02'>Exercise 2</Link></li>
+          <li><Link to='/exercise_01'>Exercise 1</Link>
+            <ul>
+              <li>Functional Components</li>
+              <li>Class Components</li>
+            </ul>
+          </li>
+          <li><Link to='/exercise_02'>Exercise 2</Link>
+            <ul>
+              <li>Dynamic Routing</li>
+              <li>useRef Hook</li>
+              <li>useContext Hook</li>
+            </ul>
+          </li>
         </ol>
       </div>
   );
